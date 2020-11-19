@@ -1,10 +1,9 @@
+---
 title: Awesome Bugbounty Writeups
-author: Cotes Chung
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
-math: true
-image: /assets/img/sample/devices-mockup.png
+author: Elsfa7-110
+categories: [XSS, Tutorial]
+tags: [XSS]
+pin: true
 ---
 ![Awesome Bugbounty Writeups](https://raw.githubusercontent.com/devanshbatham/Awesome-Bugbounty-Writeups/master/static/logo.PNG)
 
