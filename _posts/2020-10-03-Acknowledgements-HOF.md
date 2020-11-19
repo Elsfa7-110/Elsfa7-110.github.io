@@ -43,4 +43,5 @@ HOF:
  
 ## Acknowledgements
 
-
+## Acknowledge by Bose
+![Bose](/assets/img/Screenshot at 2020-11-19 11-19-42.png)
