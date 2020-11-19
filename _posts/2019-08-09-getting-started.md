@@ -28,8 +28,5 @@ https://github.com/hahwul/dalfox
     
     dalfox file output/testphp.vulnweb.com.txt -b saad.xss.ht pipe
 
-  ```
-
     Make sure you replace my Blind XSS Hunter Payload with that of yours.
-```console
 Hope you guys like this. Do give it a Clap if liked it. 👏```
