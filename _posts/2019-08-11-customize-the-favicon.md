@@ -104,10 +104,3 @@ assetfinder http://hackerone.com > recon.txt; for d in $(<recon.txt); do $(cutyc
 
 ```
 These oneliners are collected from different sources , Credits to the respesctive authors
-```
-
-## Contribute : 
-
-```
-Open Pull requests
-```
