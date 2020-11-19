@@ -19,7 +19,7 @@ https://github.com/devanshbatham/ParamSpider
 https://github.com/hahwul/dalfox
 ```
 
-Workflow
+## Workflow
 
     After Installation of all above mentioned tools, Choose your Target. Let’s use “http://testphp.vulnweb.com/” for demonstration purposes.
     Use ParamSpider to fetch URL’s for the chosen target and save the Output in a text file.
