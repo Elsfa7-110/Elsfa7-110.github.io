@@ -87,37 +87,40 @@ HOF:
 ![Daimler](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-57-19.png)
 
 ## Acknowledge by BU-CERT
-![Daimler](https://cert.bournemouth.ac.uk/hall-of-fame/)
+[`https://cert.bournemouth.ac.uk/hall-of-fame/`](https://cert.bournemouth.ac.uk/hall-of-fame/)
 
-UVA-SOM Genesis Child Framework Based on BIMS 0.0.1 || Cross Site Scripting ( XSS ) Vulnerability
+## UVA-SOM Genesis Child Framework Based on BIMS 0.0.1 ( XSS )
 
 [`https://cxsecurity.com/issue/WLB-2018030147`](https://cxsecurity.com/issue/WLB-2018030147)
 
-Bypass Login Vulnerability
+## Bypass Login Vulnerability
+
 [`https://map.httpcs.com/alert/288597`](https://map.httpcs.com/alert/288597)
 
-Jannah Hotels & Resorts SQL Injection
+## Jannah Hotels & Resorts SQL Injection
 
 [`https://cxsecurity.com/issue/WLB-2018030216`](https://cxsecurity.com/issue/WLB-2018030216)
 
-QatarContact SQL Injection Vulnerability
+## QatarContact SQL Injection Vulnerability
 
 [`https://cxsecurity.com/issue/WLB-2018090081`](https://cxsecurity.com/issue/WLB-2018090081)
 
-Shumool IT QATARIAN VEHICLES STRUCTURE FACTORY SQL Injection
+## Shumool IT QATARIAN VEHICLES STRUCTURE FACTORY SQL Injection
 
 [`https://cxsecurity.com/issue/WLB-2018030217`](https://cxsecurity.com/issue/WLB-2018030217)
 
-Witt Home Inspections LLC SQL Injection
+## Witt Home Inspections LLC SQL Injection
 
 [`https://cxsecurity.com/issue/WLB-2018030218`](https://cxsecurity.com/issue/WLB-2018030218)
 
-bnamericas - Cross Site Scripting ( XSS ) Vulnerability
+## bnamericas - Cross Site Scripting ( XSS ) Vulnerability
+
 [`https://cxsecurity.com/issue/WLB-2018030144`](https://cxsecurity.com/issue/WLB-2018030144)
 
-goodnews - v5.6 - Cross Site Scripting ( XSS ) Vulnerability
+## goodnews - v5.6 - Cross Site Scripting ( XSS ) Vulnerability
+
 [`https://cxsecurity.com/issue/WLB-2018030141`](https://cxsecurity.com/issue/WLB-2018030141)
 
-miteleferico - Cross Site Scripting ( XSS ) Vulnerability
+## miteleferico - Cross Site Scripting ( XSS ) Vulnerability
 
 [`https://cxsecurity.com/issue/WLB-2018030143`](https://cxsecurity.com/issue/WLB-2018030143)
