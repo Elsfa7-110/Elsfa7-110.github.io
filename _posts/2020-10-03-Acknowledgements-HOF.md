@@ -41,7 +41,35 @@ HOF:
  
  [`https://bugcrowd.com/pantheon/hall-of-fame`](https://bugcrowd.com/pantheon/hall-of-fame)
  
-## Acknowledgements
-
 ## Acknowledge by Bose
 ![Bose](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-19-42.png)
+
+## Acknowledge by Pega
+![Pega](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-25-43.png)
+
+## Acknowledge by Avira
+![Avira](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-28-08.png)
+
+## Acknowledge by Mitel
+![Mitel](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-30-45.png)
+
+## Acknowledge by NXP
+![NXP](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-32-28.png)
+
+## Acknowledge by Nvidia
+![Nvidia](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-34-20.png)
+
+## Acknowledge by Orange
+![Orange](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-37-38.png)
+
+## Acknowledge by Thales Group
+![Thales](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-39-27.png)
+
+## Acknowledge by infosupport
+![infosupport](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-41-20.png)
+
+## Acknowledge by infosupport
+![infosupport](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-41-20.png)
+
+
+
