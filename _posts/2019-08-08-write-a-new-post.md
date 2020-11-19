@@ -31,5 +31,3 @@ Note : This is just one example, you can use different favicon hashes for differ
 tool named “FavFreak” that makes my work a hell lot easier, it takes a list of urls (with https or http protocol) from stdin ,then it fetches favicon.ico and calculates its hash value. It sorts the domains/subdomains/IPs according to their favicon hashes and the most interesting part is , It matches calculated favicon hashes with the favicon hashes present in the fingerprint dictionary , If matched then it will show you the results in the output, there is option to generate shodan dorks as well (that is pretty basic and you can do it manually as well)
 Example
 FavFreak can be found here : https://github.com/devanshbatham/FavFreak
-
-$ cat urls.txt | python3 favfreak.py -o output
