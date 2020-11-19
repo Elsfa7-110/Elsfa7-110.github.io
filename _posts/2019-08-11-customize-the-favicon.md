@@ -6,9 +6,6 @@ categories: [XSS, Tutorial]
 toc: false
 ---
 
-
-# Awesome Bughunting Oneliners
-
 ### A  list of bughunting one liners
 
   
