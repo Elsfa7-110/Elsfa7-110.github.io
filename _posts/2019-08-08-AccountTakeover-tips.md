@@ -102,6 +102,6 @@ POST /newaccount
 
 10. Account takeover after login (Work if inside the website there is "Connect to facebook/twitter/etc")
   - First, login to the website using victim email
-  - Find "Connect to facebook/twitter/googleplus" or something like that ![Photo](https://miro.medium.com/max/875/0*LOrCFhQF9-KPALPg.png)]
+  - Find "Connect to facebook/twitter/googleplus" or something like that
   - Connect to attacker twitter
   - After logout you can login using the twitter
