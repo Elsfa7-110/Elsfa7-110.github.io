@@ -1,39 +1,116 @@
 ---
-title: Customize the Favicon
-author: Cotes Chung
+title: Awesome Bughunting Oneliners
+author: Elsfa7-110
 date: 2019-08-11 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [favicon]
+categories: [XSS, Tutorial]
 toc: false
 ---
 
-In [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/), the image files of [Favicons](https://www.favicon-generator.org/about/) are placed in `assets/img/favicons/`. You may need to replace them with your own. So let's see how to customize these Favicons.
 
-With a square image (PNG, JPG or GIF) in hand, open the site [*Favicon & App Icon Generator*](https://www.favicon-generator.org/) and upload your original image.
+# Awesome Bughunting Oneliners
 
-![upload-image](/assets/img/sample/upload-image.png)
+### A  list of bughunting one liners
 
-Click button <kbd>Create Favicon</kbd> and wait a moment for the website to generate the icons of various sizes automatically.
+  
 
-![download-icons](/assets/img/sample/download-icons.png){: width="600"}
+##  Content Discovery/Recon : 
 
-Download the generated package, unzip and delete the following two from the extracted files:
+  
 
-- browserconfig.xml
-- manifest.json
- 
-Now, copy the remaining image files (`.PNG` and `.ICO`) from the extracted `.zip` file to cover the original files in the folder `assets/img/favicons/`.
+### 1 . Using dns.bufferover.run
 
-The following table helps you understand the changes to the icon file:
+```
+curl -s https://dns.bufferover.run/dns?q=.example.com |jq -r .FDNS_A[]|cut -d',' -f2|sort -u
+```
 
-> ✓ means keep, ✗ means delete.
+### 2 . Using Crt.sh
 
-| File(s)             | From Favicon & App Icon Generator | From Chirpy |
-|---------------------|:---------------------------------:|:-----------:|
-| `*.PNG`             | ✓                                 | ✗           |
-| `*.ICO`             | ✓                                 | ✗           |
-| `browserconfig.xml` | ✗                                 | ✓           |
-| `manifest.json`     | ✗                                 | ✓           |
+```
+curl -s https://dns.bufferover.run/dns?q=.hackerone.com |jq -r .FDNS_A[]|cut -d',' -f2|sort -u
+```
+  
 
+###  3 . Using Certspotter
 
-The next time you build the site, the icon will be replaced with a customized edition.
+```
+curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq '.[].dns_names[]' | sed 's/\"//g' | sed 's/\*\.//g' | uniq
+```
+  
+
+### 4 . Using Certspotter (With port scanning)
+
+```
+curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq '.[].dns_names[]' | sed 's/\"//g' | sed 's/\*\.//g' | uniq | dig +short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG -
+```
+
+###  5 .  Sublist3r One Liner
+
+```
+. <(cat domains | xargs -n1 -i{} python sublist3r.py -d {} -o {}.txt)
+```
+
+###  6 . Grab Titles of webpages 
+
+```
+for i in $(cat Webservers.txt ); do echo "$i | $(curl --connect-timeout 0.5 $i -so - | grep -iPo '(?<=<title>)(.*)(?=</title>)')"; done 
+```
+
+###  7 . Enumerate hosts from SSL Certificate 
+
+```
+echo | openssl s_client -connect https://targetdomain.com:443 | openssl x509 -noout -text | grep DNS
+```
+
+###  8 . Google DNS via HTTPS
+
+```
+echo "targetdomain.com" | xargs -I domain proxychains curl -s "https://dns.google.com/resolve?name=domain&type=A" | jq .
+```
+
+###  9 .  CommonCrawl to find endpoints on a site
+
+```
+echo "targetdomain.com" | xargs -I domain curl -s "http://index.commoncrawl.org/CC-MAIN-2018-22-index?url=*.domain&output=json" | jq -r .url | sort -u
+```
+
+###  10 . Using WebArchive
+
+```
+curl -s "http://web.archive.org/cdx/search/cdx?url=*.hackerone.com/*&output=text&fl=original&collapse=urlkey" |sort| sed -e 's_https*://__' -e "s/\/.*//" -e 's/:.*//' -e 's/^www\.//' | uniq
+``` 
+
+###  11 . Using ThreatCrowd
+
+```
+curl https://www.threatcrowd.org/searchApi/v2/domain/report/?domain=hackerone.com |jq .subdomains |grep -o '\w.*hackerone.com'
+```
+
+###  12 . Using Hackertarget
+
+```
+curl https://api.hackertarget.com/hostsearch/?q=hackerone.com | grep -o '\w.*hackerone.com'
+```
+
+###  13 . Bruteforce Subdomains
+
+```
+while read sub; do if host "$sub.example.com" &> /dev/null; then echo "$sub.example.com"; fi; done < wordslist.txt
+```
+
+###  14 .  Assetfinder 
+
+```
+assetfinder http://hackerone.com > recon.txt; for d in $(<recon.txt); do $(cutycapt --url=$d --out=$d.jpg --max-wait=100000); done
+```
+
+## Note : 
+
+```
+These oneliners are collected from different sources , Credits to the respesctive authors
+```
+
+## Contribute : 
+
+```
+Open Pull requests
+```
