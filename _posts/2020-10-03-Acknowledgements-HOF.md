@@ -44,4 +44,4 @@ HOF:
 ## Acknowledgements
 
 ## Acknowledge by Bose
-![Bose](assets/img/Screenshot at 2020-11-19 11-19-42.png)
+![Bose](https://raw.githubusercontent.com/Elsfa7-110/Elsfa7-110.github.io/master/assets/img/Screenshot%20at%202020-11-19%2011-19-42.png)
