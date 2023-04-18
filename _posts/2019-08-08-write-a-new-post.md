@@ -1,3 +1,5 @@
+<a href='https://zero-eg.com/'>Click here
+
 ---
 title: favicon.ico for BugBounties
 author: Elsfa7-110
