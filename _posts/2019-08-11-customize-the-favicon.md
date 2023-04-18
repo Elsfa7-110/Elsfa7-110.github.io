@@ -1,3 +1,5 @@
+<a href='https://zero-eg.com/'>Click here
+
 ---
 title: Awesome Bughunting Oneliners
 author: Elsfa7-110
