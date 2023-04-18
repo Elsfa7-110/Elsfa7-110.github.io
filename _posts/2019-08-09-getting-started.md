@@ -1,3 +1,5 @@
+<a href='https://zero-eg.com/'>Click here
+
 ---
 title: Automating XSS, ParamSpider and Dalfox
 author: Elsfa7-110
