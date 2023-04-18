@@ -1,3 +1,4 @@
+<a href='https://zero-eg.com/'>Click here
 ---
 title: Awesome Bugbounty Writeups
 author: Elsfa7-110
